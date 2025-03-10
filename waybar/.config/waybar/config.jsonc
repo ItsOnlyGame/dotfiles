@@ -1,0 +1,32 @@
+{
+  "position": "top",
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["tray", "network", "pulseaudio", "clock"],
+  "clock": {
+    "interval": 1,
+    "format": "{:%d/%m/%Y  %H:%M:%S}",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+  },
+  "network": {
+    "interface": "enp4s0",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>\udb82\udd28</span> ",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>\udb82\udd2d</span> ",
+    "tooltip-format": "{ifname} | {ipaddr}",
+    "tooltip-format-ethernet": "{ifname} | {ipaddr}",
+    "tooltip-format-disconnected": ""
+  },
+  "pulseaudio": {
+      "format": "{icon}  {volume}%",
+      "format-muted": "",
+      "format-icons": {
+          "default": ["", "", " "]
+      },
+      "on-click": "pavucontrol"
+  },
+  "tray": {
+    "icon-size": 21,
+    "spacing": 10
+  }
+}
