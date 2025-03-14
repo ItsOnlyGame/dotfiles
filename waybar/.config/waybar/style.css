@@ -54,6 +54,7 @@ button:hover {
     background-color: #eb4d4b;
 }
 
+#custom-pacman,
 #pulseaudio,
 #bluetooth,
 #clock,
@@ -101,6 +102,9 @@ button:hover {
     border-bottom: 2px solid @maroon;
 }
 
+#custom-pacman {
+    color: @mauve;
+    border-bottom: 2px solid @mauve;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
