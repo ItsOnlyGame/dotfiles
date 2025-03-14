@@ -10,6 +10,13 @@
     "pulseaudio",
     "clock",
   ],
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "persistent-workspaces": {
+      "DP-1": [1, 2, 3, 4],
+      "DP-3": [5, 6, 7, 8],
+    },
+  },
   "clock": {
     "interval": 1,
     "format": "{:%d/%m/%Y  %H:%M:%S}",
