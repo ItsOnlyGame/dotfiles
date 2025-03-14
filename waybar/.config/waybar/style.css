@@ -101,13 +101,6 @@ button:hover {
     border-bottom: 2px solid @maroon;
 }
 
-#idle_inhibitor.activated {
-    color: @red;
-}
-
-#battery {
-    color: @green;
-    border-bottom: 2px solid @green;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -120,9 +113,4 @@ button:hover {
     margin-right: 0;
 }
 
-#custom-vpn {
-    color: @lavender;
-    border-radius: 15px;
-    padding-left: 6px;
-    padding-right: 6px;
 }
