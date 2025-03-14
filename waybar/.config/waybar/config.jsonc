@@ -4,6 +4,7 @@
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "tray",
+    "custom/pacman",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -45,5 +46,15 @@
   "tray": {
     "icon-size": 21,
     "spacing": 10,
+  },
+  "custom/pacman": {
+    "format": "{icon} {0}",
+    "return-type": "json",
+    "format-icons": {
+      "pending-updates": " ",
+      "updated": "",
+    },
+    "exec-if": "which waybar-updates",
+    "exec": "waybar-updates --packages-limit 100",
   },
 }
