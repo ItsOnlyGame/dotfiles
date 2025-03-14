@@ -10,7 +10,7 @@ success_symbol = "[❯](green)"
 error_symbol = "[❯](red)"
 
 [git_branch]
-style = "bold mauve"
+style = "bold rosewater"
 
 [directory]
 truncation_length = 4
