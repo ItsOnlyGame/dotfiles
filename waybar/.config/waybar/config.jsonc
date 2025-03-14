@@ -58,8 +58,8 @@
     "format": "{icon} {0}",
     "return-type": "json",
     "format-icons": {
-      "pending-updates": " ",
-      "updated": "",
+      "pending-updates": "<span size='large'>\uf409</span> ",
+      "updated": "<span size='large'>\uf05d</span> ",
     },
     "exec-if": "which waybar-updates",
     "exec": "waybar-updates --packages-limit 100",
