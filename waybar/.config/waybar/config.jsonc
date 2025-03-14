@@ -10,12 +10,13 @@
   },
   "network": {
     "interface": "enp4s0",
-    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>\udb82\udd28</span> ",
+    "format-ethernet": "<span size='13000' foreground='#f5e0dc'>\udb82\udd28</span>    Ethernet",
     "format-linked": "{ifname} (No IP) ",
-    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>\udb82\udd2d</span> ",
+    "format-disconnected": "<span size='13000' foreground='#f5e0dc'>\udb82\udd2d</span>    Disconnected",
     "tooltip-format": "{ifname} | {ipaddr}",
     "tooltip-format-ethernet": "{ifname} | {ipaddr}",
-    "tooltip-format-disconnected": ""
+    "tooltip-format-disconnected": "",
+    "on-click": "nm-connection-editor",
   },
   "pulseaudio": {
       "format": "{icon}  {volume}%",
