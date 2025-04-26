@@ -1,8 +1,8 @@
 eval "$(starship init zsh)"
 
 # Custom zsh
-if [ -f ~/.zsh/zsh-custom/zsh-custom.zsh ]; then
-    source ~/.zsh/zsh-custom/zsh-custom.zsh
+if [ -f ~/.zsh/custom.zsh ]; then
+    source ~/.zsh/custom.zsh
 fi
 
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
