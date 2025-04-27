@@ -19,6 +19,7 @@
     "format-on": "{icon}",
     "format-off": "{icon}",
     "format-disabled": "",
+    "format-no-controller": "",
     "format-connected": "{icon} {num_connections}",
     "format-icons": {
       "on": "<span size='13000'>󰂯</span>",
