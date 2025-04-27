@@ -2,7 +2,14 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["tray", "bluetooth", "network", "pulseaudio", "clock"],
+  "modules-right": [
+    "tray",
+    "bluetooth",
+    "network",
+    "pulseaudio",
+    "clock",
+    "custom/powermenu",
+  ],
   "hyprland/workspaces": {
     "format": "{name}",
     "persistent-workspaces": {
@@ -58,5 +65,9 @@
   "tray": {
     "icon-size": 18,
     "spacing": 8,
+  },
+  "custom/powermenu": {
+    "format": "<span size='10000'>⏻</span>",
+    "on-click": "~/.config/wofi/wofi-power.sh",
   },
 }

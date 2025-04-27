@@ -73,3 +73,9 @@ button:hover {
 #bluetooth {
     color: @yellow;
 }
+
+#custom-powermenu {
+    color: @rosewater;
+    padding: 0 4px;
+    padding-right: 12px;
+}
