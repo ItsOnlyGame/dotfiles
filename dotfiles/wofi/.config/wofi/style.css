@@ -58,11 +58,9 @@
 
 /* Window */
 window {
-    margin: 0px;
-    padding: 10px;
-    border: 2px solid @lavender;
-    border-radius: 8px;
+    margin: 0.5rem;
     background-color: @base;
+    border: 2px solid @lavender;
 }
 
 /* Inner Box */
@@ -91,21 +89,12 @@ window {
 
 /* Input */
 #input {
-    margin: 5px 20px;
-    padding: 10px;
+    margin: 5px 18px;
+    padding: 6px;
     border: none;
     border-radius: 0.1em;
     color: @text;
     background-color: @base;
-}
-
-#input image {
-    border: none;
-    color: @red;
-}
-
-#input * {
-    outline: 4px solid @red!important;
 }
 
 /* Text */
@@ -126,13 +115,10 @@ window {
 
 /* Selected Entry */
 #entry:selected {
-    border: 0.11em solid @lavender;
+    outline: none;
+    border-left: 2px solid @lavender;
 }
 
 #entry:selected #text {
     color: @mauve;
-}
-
-#entry:drop(active) {
-    background-color: @lavender!important;
 }
