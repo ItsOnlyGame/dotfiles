@@ -4,6 +4,7 @@
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "tray",
+    "custom/pacman",
     "bluetooth",
     "network",
     "pulseaudio",
@@ -74,5 +75,15 @@
     "format": "<span size='10000'>⏻</span>",
     "tooltip": false,
     "on-click": "~/.config/wofi/wofi-power.sh",
+  },
+  "custom/pacman": {
+    "format": "{icon} {0}",
+    "return-type": "json",
+    "format-icons": {
+      "pending-updates": "<span size='12000'></span>",
+      "updated": "<span size='12000'></span>",
+    },
+    "exec-if": "which waybar-updates",
+    "exec": "waybar-updates -l 1000",
   },
 }
