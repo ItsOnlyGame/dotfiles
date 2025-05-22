@@ -28,13 +28,14 @@
   "bluetooth": {
     "format-on": "{icon}",
     "format-off": "{icon}",
-    "format-disabled": "",
+    "format-disabled": "{icon}",
     "format-no-controller": "",
     "format-connected": "{icon} {num_connections}",
     "format-icons": {
       "on": "<span size='13000'>󰂯</span>",
       "off": "<span size='13000'>󰂲</span>",
       "connected": "<span size='13000'>󰂱</span>",
+      "disabled": "<span size='13000'>󰂲</span>",
     },
     "tooltip-format": "{controller_alias}",
     "tooltip-format-enumerate-connected": "{controller_alias}\n{device_alias} | {device_address}",
