@@ -68,7 +68,7 @@
   },
   "tray": {
     "icon-size": 18,
-    "spacing": 8,
+    "spacing": 10,
   },
   "custom/powermenu": {
     "format": "<span size='10000'>⏻</span>",
