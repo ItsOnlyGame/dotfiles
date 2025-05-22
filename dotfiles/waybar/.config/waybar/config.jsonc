@@ -4,6 +4,7 @@
   "modules-center": ["hyprland/window"],
   "modules-right": [
     "tray",
+    "hyprland/language",
     "custom/pacman",
     "bluetooth",
     "network",
@@ -85,5 +86,8 @@
     },
     "exec-if": "which waybar-updates",
     "exec": "waybar-updates -l 1000",
+  },
+  "hyprland/language": {
+    "format": "{short}",
   },
 }
