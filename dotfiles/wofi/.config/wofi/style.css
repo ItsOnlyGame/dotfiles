@@ -56,6 +56,11 @@
     font-size: 14px;
 }
 
+img {
+    width: 16px;
+    height: 16px;
+}
+
 /* Window */
 window {
     margin: 0.5rem;
