@@ -72,6 +72,7 @@
   },
   "custom/powermenu": {
     "format": "<span size='10000'>⏻</span>",
+    "tooltip": false,
     "on-click": "~/.config/wofi/wofi-power.sh",
   },
 }
