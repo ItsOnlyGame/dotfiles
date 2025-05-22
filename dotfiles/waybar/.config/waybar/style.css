@@ -53,9 +53,11 @@ button:hover {
 #bluetooth,
 #clock,
 #tray,
-#network {
-    margin: 2px 4px;
-    padding: 0 4px;
+#network,
+#custom-pacman,
+#language {
+    padding: 0 8px;
+    margin: 0 6px;
 }
 
 #clock {
@@ -64,6 +66,12 @@ button:hover {
 
 #pulseaudio {
     color: @blue;
+
+    padding-right: 0px;
+    margin-right: 0px;
+
+    margin-left: 4px;
+    padding-left: 2px;
 }
 
 #network {
@@ -72,10 +80,23 @@ button:hover {
 
 #bluetooth {
     color: @yellow;
+    padding-right: 1px;
+    margin-right: 1px;
 }
 
 #custom-powermenu {
     color: @rosewater;
-    padding: 0 4px;
     padding-right: 12px;
+}
+
+#custom-pacman {
+    color: @teal;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+#language {
+    color: @lavender;
+    padding: 0;
+    margin: 0;
 }
