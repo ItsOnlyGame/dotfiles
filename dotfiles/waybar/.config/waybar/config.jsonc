@@ -42,7 +42,7 @@
     "on-click": "blueman-manager",
   },
   "network": {
-    "interface": "enp4s0",
+    "interface": "enp5s0",
     "format-ethernet": "{icon}",
     "format-disconnected": "{icon}",
     "format-icons": {
